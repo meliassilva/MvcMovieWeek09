@@ -23,36 +23,36 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
+                        Title = "Finding Faith in Christ",
+                        ReleaseDate = DateTime.Parse("2003-2-12"),
+                        Genre = "Christ",
                         Rating = "R",
                         Price = 7.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
+                        Title = "Joseph Smith: The Prophet of the Restoration ",
+                        ReleaseDate = DateTime.Parse("2005-3-13"),
+                        Genre = "Restoration",
                         Rating = "R",
                         Price = 8.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
+                        Title = "Meet the Mormons",
+                        ReleaseDate = DateTime.Parse("2014-2-23"),
+                        Genre = "Religion",
                         Rating = "R",
                         Price = 9.99M
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
+                        Title = "The Work and the Glory",
+                        ReleaseDate = DateTime.Parse("2004-4-15"),
+                        Genre = "Restoration",
                         Rating = "R",
                         Price = 3.99M
                     }
